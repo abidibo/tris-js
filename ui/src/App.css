@@ -1,0 +1,31 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.stage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.cell {
+  align-items: center;
+  border: 1px solid #eee;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+}
+
+.players {
+  align-items: center;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+}
